@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo-container {
+    text-align: center;
+}
+.logo-container img {
+    height: 60px;
+    width: auto;
+}
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #003580;
+    margin-top: 5px;
+}
+
+/* Navigation */
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.nav a:hover {
+    color: #003580;
+}
+
+/* Main Content */
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+    background-color: #003580;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #002b66;
+}
