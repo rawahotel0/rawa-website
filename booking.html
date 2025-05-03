@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAWA Motel - Booking</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Booking - RAWA Motel</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="header">
-        <div class="logo-container">
-            <img src="1741572230220.png" alt="RAWA Logo"style="height: 140px; width: auto;"
-            <p class="logo-text">RAWA</p>
-        </div>
-        <div class="nav">
-            <a href="index.html">Home</a>
-            <a href="rooms.html">Rooms</a>
-            <a href="booking.html">Book Now</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </div>
+  <header class="top-bar">
+    <div class="logo-bar">
+      <a href="main.html"><img src="logo.png" alt="RAWA Motel Logo" style="height: 150px; width: auto;"></a>
+      <nav>
+        <ul>
+          <li><a href="main.html">Main</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="booking.html" class="reserve-btn">Reserve Now</a>
     </div>
-
-    <div class="container">
-        <h1>Book Your Stay</h1>
-        <p>Fill in the details to reserve your stay at RAWA Motel.</p>
-    </div>
-
+  </header>
+  <section>
+    <h2>Book Your Stay</h2>
+    <form>
+      <label>Check-in Date:<input type="date"></label>
+      <label>Check-out Date:<input type="date"></label>
+      <label>Room Type:
+        <select>
+          <option>Eco Stay</option>
+          <option>Wellness Escape</option>
+          <option>Holistic Retreat</option>
+        </select>
+      </label>
+      <label>Season:
+        <select>
+          <option>High Season</option>
+          <option>Shoulder Season</option>
+          <option>Low Season</option>
+        </select>
+      </label>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+  <footer>
+    <a href="https://www.instagram.com/rawamotel/" target="_blank">
+      <img src="instagram.png" alt="Instagram Logo" class="insta-icon"> @rawamotel
+    </a>
+  </footer>
 </body>
 </html>
